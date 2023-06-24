@@ -12,7 +12,7 @@ public class Palindrome {
             System.out.println(line + " is not palindrome.");
     }
 
-    public static boolean Palindrome(String line) {
+    private static boolean Palindrome(String line) {
         int i = 0, j = line.length() - 1;
         while(i < j) {
             if(line.charAt(i) != line.charAt(j))
